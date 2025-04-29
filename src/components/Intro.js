@@ -7,9 +7,9 @@ const Intro = () => {
 	const [hideScreen, setHideScreen] = useState(false);
 
 	useEffect(() => {
-		const timeout1 = setTimeout(() => setStartAnimation(true), 100); // Trigger animation
-		const timeout2 = setTimeout(() => setAnimationFinished(true), 2000); // Fade out
-		const timeout3 = setTimeout(() => setHideScreen(true), 2800); // Remove from screen
+		const timeout1 = setTimeout(() => setStartAnimation(true), 100);
+		const timeout2 = setTimeout(() => setAnimationFinished(true), 2000);
+		const timeout3 = setTimeout(() => setHideScreen(true), 2800);
 
 		return () => {
 			clearTimeout(timeout1);
