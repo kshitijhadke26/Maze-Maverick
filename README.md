@@ -1,13 +1,13 @@
-# Maze Solver
+# Maze Maverick
 
-Maze Solver is a ReactJS application that generates a customizable `m x n` size maze. Users can either input specific problems or click to randomly generate blockages within the maze. The application then utilizes the Breadth-First Search (BFS) algorithm to find and display the shortest path from the start to the finish.
+Maze Maverick is a ReactJS application that generates a customizable `m x n` size maze. Users can either input specific problems or click to randomly generate blockages within the maze. The application then utilizes the Breadth-First Search (BFS) algorithm to find and display the shortest path from the start to the finish.
 
 ## Features
 
-- **Maze Generation**: Create a maze of any size by specifying the dimensions `m x n`.
-- **Customizable Blockages**: Users can manually place blockages within the maze or use the random blockage generator for a new challenge.
+- **Custom Grid Creation**: Create a maze of any size by specifying the dimensions `m x n`.
+- **Random Obstacle Generation**: Users can manually place blockages within the maze or use the random blockage generator for a new challenge.
 - **Shortest Path Solution**: Employs the BFS algorithm to calculate and visualize the shortest path from the start to the end of the maze.
-- **Interactive Interface**: Intuitive user interface for maze interaction, blockage placement, and pathfinding.
+- **Dynamic Interaction**: Intuitive user interface for maze interaction, obstacle generation, and pathfinding.
 
 ## Technologies Used
 
